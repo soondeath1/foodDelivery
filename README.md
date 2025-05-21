@@ -20,6 +20,27 @@
 
 ### 시퀀스 다이어그램
 
+다이어그램 설명
+1. User가 App을 실행하고 로그인합니다.
+
+2. User는 메뉴에서 음식을 선택하고 App에 전달합니다.
+
+3. App은 선택된 메뉴에 대해 Restaurant에 재고를 확인 요청합니다.
+
+4. Restaurant은 재고가 있음을 App에 응답합니다.
+
+5. User는 결제를 요청하고, App은 결제 정보를 PaymentGateway로 전달합니다.
+
+6. PaymentGateway는 결제 성공 여부를 App에 응답합니다.
+
+7. App은 결제가 성공적으로 이루어졌음을 확인하고, Restaurant에 주문을 전달합니다.
+
+8. Restaurant은 주문을 접수하고 App에 완료 응답을 보냅니다.
+
+9. App은 User에게 주문 완료 알림을 표시합니다.
+
+
+
 위 다이어그램은 [Mermaid.live](https://mermaid.live/edit#pako:eNqFkk1LI0EQhv9KU-ckTMY4H30QxIW9LoKXZS5Npo1B52M7M6wx5GQOSgIiGFExMqIIQgQ1ih78RenOf9hKRjPEuNin7nqfequK6gaUA5cDhRr_E3O_zH9UWUUwz_EJnpCJqFquhsyPyFqNi_nochjOB1d5LWKxwOu89ovVPe5HP1nE_7K646fE2Dy_tIRulKjuA1Ht69HxPpH3B0Reng9fXlXv9Quy11HtHpG3R3L_iahWMtrtpRTKCGV9TFl10R8OEjI67aIjUWdH6vEuTcng_NQ_hdXFHmbPlx8-3qvkfMYkrTs7YwYmXTnAPpOWbPdTfpbMf3ZuPQwHz9j6oWw__3ewqzfZ_36Udyo5VHsnRJ225FUnc0RqPFiGTXTcREfevKU7ghxURNUFGomY58DjwmPjJzTGqgPRBve4AxSvLhObDjh-E3Nw57-DwPtIE0Fc2QC6zrZq-IpDFwd__3HTqOC-y8VKEPsRUGtiAbQB20B1Sy_YZkk3TU2zi9qinYM6UNMuWCW9aJXsBVszNM1q5mBnUlMrGHpxwdA1y0DVtIxi8x-CgC7Q)에서 확인 가능합니다.
 
 ## 3. 코드 구성
