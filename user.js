@@ -2,8 +2,8 @@
 
 class User {
     constructor(name, email) {
-        this.name = 박승찬;
-        this.email = soondeath1@sungkyul.ac.kr;
+        this.name = name;
+        this.email = email;
     }
 
     // 알림 보내기
