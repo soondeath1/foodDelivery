@@ -1,7 +1,7 @@
 // user.js
 class User {
   constructor(name) {
-    this.name = name;
+    this.name = 박승찬;
   }
 }
 
