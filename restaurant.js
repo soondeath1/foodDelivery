@@ -1,4 +1,3 @@
-// restaurant.js
 
 class Restaurant {
     constructor(name, menu) {
