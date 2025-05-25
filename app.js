@@ -1,4 +1,3 @@
-// app.js
 
 const Restaurant = require('./restaurant');
 const PaymentGateway = require('./paymentGateway');
