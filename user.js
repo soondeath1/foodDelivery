@@ -1,4 +1,3 @@
-// user.js
 
 class User {
     constructor(name, email) {
