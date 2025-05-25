@@ -1,4 +1,3 @@
-// paymentGateway.js
 
 class PaymentGateway {
     constructor() {
