@@ -34,7 +34,7 @@ function processOrder(item, quantity) {
 }
 
 // 사용자 주문 처리 (예시)
-processOrder('pizza', 2);  // 정상 주문
-processOrder('burger', 3); // 재고 부족 예시
-processOrder('pizza', 6);  // 재고 부족 예시
+// processOrder('pizza', 2);  // 정상 주문
+// processOrder('burger', 3); // 재고 부족 예시
+// processOrder('pizza', 6);  // 재고 부족 예시
 
